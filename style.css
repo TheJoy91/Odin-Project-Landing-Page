@@ -1,0 +1,23 @@
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+
+
+}
+
+.header p a {
+    color: #f9faf8;
+    text-decoration: none;
+
+}
+
+.shrink {
+    width: 80px;
+    margin-right: auto;
+}
+
+.top-text {
+    display: flex;
+}
