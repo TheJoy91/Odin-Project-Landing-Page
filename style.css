@@ -33,3 +33,43 @@
     padding-left: 200px;
     height: 200px;
 }
+
+.small {
+    width: 150px;
+}
+
+.body {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.body p {
+    word-wrap: break-word;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    word-wrap: break-word;
+    flex-direction: column;
+}
+
+.quote h6 {
+    align-self: end;
+}
