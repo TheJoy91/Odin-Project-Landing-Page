@@ -6,21 +6,21 @@
 .header p a {
     color: #f9faf8;
     text-decoration: none;
-    padding-right: 50px;
+    padding-right: 200px;
 
 }
 
 .shrink {
     width: 80px;
     margin-right: auto;
-    padding-left: 50px;
+    padding-left: 200px;
 }
 
 .clippy {
-    width: 160px;
+    width: 300px;
     align-self: flex-end;
     padding-top: 25px;
-    padding-right: 50px;
+    padding-right: 200px;
 }
 
 .top-text {
@@ -31,7 +31,7 @@
     align-items: start;
     flex-wrap: wrap;
     padding-left: 200px;
-    height: 200px;
+    height: 350px;
 }
 
 .small {
@@ -68,8 +68,37 @@
     font-style: italic;
     word-wrap: break-word;
     flex-direction: column;
+    align-items: center;
 }
 
 .quote h6 {
     align-self: end;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    width: 50%;
+    color: white;
+    border-radius: 25px;
+
+}
+
+.container button {
+    align-self: flex-end;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
 }
