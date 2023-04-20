@@ -97,7 +97,8 @@
     align-self: flex-end;
 }
 
-.foot{
+.foot {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
